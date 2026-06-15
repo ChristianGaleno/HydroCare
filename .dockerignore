@@ -1,0 +1,12 @@
+.git
+.venv
+**/__pycache__
+.DS_Store
+.claude
+.ipynb_checkpoints
+
+# Not needed at runtime (keeps the image lean)
+notebooks
+test
+web-refrence
+*.png

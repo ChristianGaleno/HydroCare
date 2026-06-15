@@ -1,0 +1,24 @@
+# HydroCare — ResNet-50 plant-disease classifier
+# Core deep-learning + data stack used by HydroCare_ResNet50_Kaggle.ipynb
+#
+# Note: Kaggle notebooks already ship with all of these pre-installed,
+# so this file is mainly for running locally (inference / experimentation).
+#
+# Install:   pip install -r requirements.txt
+# For CUDA GPU builds of torch, see https://pytorch.org/get-started/locally/
+
+torch>=2.1.0
+torchvision>=0.16.0
+numpy>=1.24.0
+Pillow>=10.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+
+# Web app (webapp/server.py)
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.9
+
+# Uncomment if you want to run the .ipynb locally in Jupyter:
+# jupyter>=1.0.0
+# ipykernel>=6.25.0
