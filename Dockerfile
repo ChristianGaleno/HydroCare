@@ -15,7 +15,7 @@ RUN pip install --no-cache-dir \
     "uvicorn[standard]>=0.27.0" \
     "python-multipart>=0.0.9" \
     "Pillow>=10.0.0" \
-    "numpy>=1.24.0"
+    "numpy<2"
 
 COPY . .
 
